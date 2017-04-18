@@ -8,7 +8,6 @@ import java.util.ArrayList;
 public class OddAvg {
 
   public static void main(String[] args) {
-
   }
 
   public double oddAverage(ArrayList<Integer> inputList) {
@@ -18,14 +17,14 @@ public class OddAvg {
     ArrayList<Integer> oddNumbersList = new ArrayList<>();
 
     for (int oddNumbers : theListToWorkWith)
-    if (oddNumbers % 2 == 1) {
-      oddNumbersList.add(oddNumbers);
-    }
-    for (int i = 0; i <oddNumbersList.size() ; i++) {
-      sum += oddNumbersList.get(i);
-      returnAvarge = sum / oddNumbersList.size();
-    }
-    return returnAvarge;
+      if (oddNumbers % 2 == 1) {
+        oddNumbersList.add(oddNumbers);
+      }
+      for (int i = 0; i <oddNumbersList.size() ; i++) {
+        sum += oddNumbersList.get(i);
+        returnAvarge = sum / oddNumbersList.size();
+      }
+      return returnAvarge;
   }
 
 }

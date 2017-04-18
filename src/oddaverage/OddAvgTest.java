@@ -40,4 +40,5 @@ class OddAvgTest {
     test.add(6);
     assertEquals(5, oddAvg.oddAverage(test));
   }
+
 }
