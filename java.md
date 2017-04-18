@@ -36,15 +36,20 @@ The application is accepted if:
 
 #### Your answer:
 [add your answer here]   
-1:   
-2:   
-3:   
-4:   
-5:   
-6:   
-7:   
-8:   
+1: header, contains info of properties of method, name, parameters   
+2: the output type of the method
+3: name of method  
+4: parameter type  
+5: parameter  
+6: initializing value
+7: the body of the method  
+8: the returning output from the method  
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+The constructor is invoke to create an instance (objects) from the class 
+blueprint. We use it when we want to create an object of the class. 
+Exemple: if we have a car class and we want to create a new car object 
+as newCar, we use the consturctor from the car class blueprint. We can have
+more constructor than one, if in different constructors we initialises 
+more fields from the class. 
