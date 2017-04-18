@@ -8,12 +8,10 @@ import java.util.ArrayList;
 public class OddAvg {
 
   public static void main(String[] args) {
-    ArrayList<Integer> listOfNumbers = new ArrayList<Integer>();
 
-    oddAverage(listOfNumbers);
   }
 
-  public static int oddAverage(ArrayList<Integer> inputList) {
+  public int oddAverage(ArrayList<Integer> inputList) {
     int returnAvarge = 0;
     int sum = 0;
     ArrayList<Integer> theListToWorkWith = inputList;
