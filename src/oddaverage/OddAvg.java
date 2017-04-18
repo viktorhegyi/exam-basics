@@ -11,14 +11,14 @@ public class OddAvg {
 
   }
 
-  public int oddAverage(ArrayList<Integer> inputList) {
-    int returnAvarge = 0;
+  public double oddAverage(ArrayList<Integer> inputList) {
+    double returnAvarge = 0;
     int sum = 0;
     ArrayList<Integer> theListToWorkWith = inputList;
     ArrayList<Integer> oddNumbersList = new ArrayList<>();
 
     for (int oddNumbers : theListToWorkWith)
-    if (oddNumbers % 2 == 0) {
+    if (oddNumbers % 2 == 1) {
       oddNumbersList.add(oddNumbers);
     }
     for (int i = 0; i <oddNumbersList.size() ; i++) {

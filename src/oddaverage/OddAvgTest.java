@@ -25,19 +25,19 @@ class OddAvgTest {
 
   @org.junit.jupiter.api.Test
   void testForJustEvenNumbers() {
-    test.add(3);
-    test.add(3);
-    test.add(3);
-    test.add(3);
+    test.add(2);
+    test.add(4);
+    test.add(6);
+    test.add(8);
     assertEquals(0, oddAvg.oddAverage(test));
   }
 
   @org.junit.jupiter.api.Test
   void testCaseTree() {
-    test.add(2);
-    test.add(2);
-    test.add(2);
+    test.add(5);
+    test.add(5);
+    test.add(5);
     test.add(6);
-    assertEquals(3, oddAvg.oddAverage(test));
+    assertEquals(5, oddAvg.oddAverage(test));
   }
 }
